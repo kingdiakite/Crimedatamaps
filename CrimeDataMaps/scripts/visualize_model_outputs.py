@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-
+ 
 # Load normalized categorical features and summary totals
 features_df = pd.read_csv("data/usa/county_crime_features.csv")
 summary_df = pd.read_csv("data/usa/county_crime_summary.csv")
